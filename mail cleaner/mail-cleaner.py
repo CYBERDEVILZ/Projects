@@ -6,7 +6,7 @@ while True:
     pi.click()
     time.sleep(1)
     try:
-        x, y = pi.locateCenterOnScreen("C:/Users/PRANAV U/Desktop/PYTHON PROJECTS/automation_projects/mail.png")
+        x, y = pi.locateCenterOnScreen("!!!!!!!!!!!!!!!!PATH TO THE MAIL.PNG FILE!!!!!!!!!!!!!!")
     except:
         print("Mail has been cleaned!!")
         break
