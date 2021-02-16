@@ -6,7 +6,7 @@ while True:
     pi.click()
     time.sleep(1)
     try:
-        x, y = pi.locateCenterOnScreen("!!!!!!!!!!!!!!!!PATH TO THE MAIL.PNG FILE!!!!!!!!!!!!!!")
+        x, y = pi.locateCenterOnScreen("./mail.png")
     except:
         print("Mail has been cleaned!!")
         break
