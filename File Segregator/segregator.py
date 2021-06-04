@@ -43,7 +43,6 @@ def segregate(dir):
     listDir = dir.replace('"', '')
     files = os.listdir(listDir)
     ext = extension_grabber(files)
-    print(ext)
 
     if platform.system() == "Windows":
         windows(dir, ext)
