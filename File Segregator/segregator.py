@@ -43,6 +43,7 @@ def segregate(dir):
     listDir = dir.replace('"', '')
     files = os.listdir(listDir)
     ext = extension_grabber(files)
+    print(ext)
 
     if platform.system() == "Windows":
         windows(dir, ext)
@@ -61,6 +62,6 @@ def segregate(dir):
 
 
 if __name__ == "__main__":
-    dir = input("Enter single or multiple paths with comma: ")
+    dir = input("Enter the complete path of the files with comma: ")
     for i in dir.split(','):
         segregate(i.strip())
